@@ -65,7 +65,6 @@ Sends a `MAV_CMD_NAV_TAKEOFF` command.
 - Fields set altitude parameter to guide takeoff target height.
 - Sends over UDP similarly to heartbeat.
 
-🔧 You can extend this to support other commands (e.g., land, move, change mode).
 
 ---
 

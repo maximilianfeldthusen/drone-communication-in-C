@@ -175,8 +175,8 @@ Ensure code includes headers from this path.
 ```makefile
 CC = gcc
 CFLAGS = -Wall -I./c_library_v2/common
-SRC = drone_comm.c
-BIN = drone_comm
+SRC = drone_com.c
+BIN = drone_com
 
 all:
 	$(CC) $(CFLAGS) $(SRC) -o $(BIN)

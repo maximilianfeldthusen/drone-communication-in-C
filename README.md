@@ -81,7 +81,6 @@ Receives and parses incoming MAVLink messages.
 - Handles specific message types:
   - `COMMAND_ACK`: parses and prints command acknowledgment status.
 
- Can be expanded to handle telemetry or peer drone position messages.
 
 ---
 

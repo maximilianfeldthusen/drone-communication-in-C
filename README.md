@@ -1,20 +1,7 @@
 
 ## drone-communication-in-C
 
-## Linux Setup Instructions
-
-### 1. Install build tools
-
-```bash
-sudo apt update
-sudo apt install gcc make netcat
-```
-
-### 2. Clone MAVLink headers
-
-```bash
-git clone https://github.com/mavlink/c_library_v2.git
-```
+### 2. Clone MAVLink heade
 
 Ensure `drone_comm.c` includes:
 

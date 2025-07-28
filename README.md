@@ -1,36 +1,6 @@
 
 ## drone-communication-in-C
 
-### 2. Clone MAVLink heade
-
-Ensure `drone_comm.c` includes:
-
-```c
-#include "c_library_v2/common/mavlink.h"
-```
-
-Or adjust paths via `-I` in the Makefile.
-
-### 3. Build the module
-
-```bash
-make
-```
-
-### 4. Launch drone(s)
-
-Each drone should use a **different `SYSTEM_ID`**. Modify and recompile for each instance.
-
-```bash
-./drone_comm <target-IP>
-```
-
-To simulate a ground station:
-
-```bash
-nc -u -l 14550
-```
-
 ##  Header Inclusions
 
 ```c

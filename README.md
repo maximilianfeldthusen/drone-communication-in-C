@@ -1,7 +1,7 @@
 
 ## drone-communication-in-C
 
-## 🛠 Linux Setup Instructions
+## Linux Setup Instructions
 
 ### 1. Install build tools
 
